@@ -1,0 +1,16 @@
+[data-md-color-scheme="kerdoku-dark"] {
+  --md-default-fg-color: hsla(0, 0%, 100%, 0.87);
+  --md-default-fg-color--light: hsla(0, 100%, 100%, 0.54);
+  --md-default-fg-color--lighter: hsla(0, 100%, 100%, 0.32);
+  --md-default-fg-color--lightest: hsla(0, 0%, 100%, 0.07);
+  --md-accent-fg-color: #fff;
+  --md-primary-fg-color:        rgb(35, 39, 42);
+  --md-default-bg-color: #282C34;
+  --md-typeset-a-color: #fff;
+  --md-code-bg-color: hsl(245, 14%, 15%);
+  --md-code-fg-color: #fff;
+}
+
+.md-content a {
+  color: rgb(46, 204, 113) !important;
+}

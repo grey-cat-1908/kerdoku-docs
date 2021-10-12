@@ -1,0 +1,37 @@
+site_name: KerdokuBot - Docs
+site_url: https://docs.kerdoku.top/
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  language: ru
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.sections
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/moon-waxing-crescent
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: kerdoku-dark
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+
+copyright: © 2020-2021 — KerdokuBot | Все права съедены.
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://kerdoku.top
+    - icon: fontawesome/brands/vk
+      link: https://vk.com/kerdoku
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/5qXgJvr
+
+extra_css:
+  - stylesheets/dark_theme.css
