@@ -35,3 +35,10 @@ extra:
 
 extra_css:
   - stylesheets/dark_theme.css
+
+nav:
+  - "Главная": "index.md"
+  - "Команды": "commands.md"
+  - "Длительность": "dlitelnost.md"
+  - "Шаблонный Движок":
+      - "Переменные Шаблонов": "templates_engine/variables.md"
