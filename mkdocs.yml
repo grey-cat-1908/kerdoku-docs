@@ -42,3 +42,4 @@ nav:
   - "Длительность": "dlitelnost.md"
   - "Шаблонный Движок":
       - "Переменные Шаблонов": "templates_engine/variables.md"
+      - "Форматирование": "templates_engine/format.md"
