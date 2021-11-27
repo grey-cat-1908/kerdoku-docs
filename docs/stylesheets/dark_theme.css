@@ -4,8 +4,8 @@
   --md-default-fg-color--lighter: hsla(0, 100%, 100%, 0.32);
   --md-default-fg-color--lightest: hsla(0, 0%, 100%, 0.07);
   --md-accent-fg-color: #fff;
-  --md-primary-fg-color:        rgb(35, 39, 42);
-  --md-default-bg-color: #282C34;
+  --md-primary-fg-color: #16151a;
+  --md-default-bg-color: rgb(26,28,42);
   --md-typeset-a-color: #fff;
   --md-code-bg-color: hsl(245, 14%, 15%);
   --md-code-fg-color: #fff;
