@@ -9,6 +9,7 @@ theme:
   features:
     - search.suggest
     - search.highlight
+    - content.tabs.link
     - navigation.sections
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -23,6 +24,11 @@ theme:
         name: Switch to light mode
 
 copyright: © 2020-2021 — KerdokuBot | Все права съедены.
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra:
   social:
@@ -43,8 +49,9 @@ nav:
   - "Шаблонный Движок":
       - "Переменные Шаблонов": "templates_engine/variables.md"
       - "Форматирование": "templates_engine/format.md"
-      - "Методы": "templates_engine/methods.md"
-      - "Особенности": "templates_engine/features.md"
+      - "Функции": "templates_engine/methods.md"
+      - "Синтаксис": "templates_engine/features.md"
+      - "Типы и Методы": "templates_engine/types_and_ops.md"
   - "Возможности": "bot_functions.md"
   - "Музыка": "music.md"
   - "Список изменений": "changelog.md"
