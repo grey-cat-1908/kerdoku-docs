@@ -45,5 +45,6 @@ nav:
       - "Форматирование": "templates_engine/format.md"
       - "Методы": "templates_engine/methods.md"
       - "Особенности": "templates_engine/features.md"
-  - "Функции": "bot_functions.md"
+  - "Возможности": "bot_functions.md"
   - "Музыка": "music.md"
+  - "Список изменений": "changelog.md"
