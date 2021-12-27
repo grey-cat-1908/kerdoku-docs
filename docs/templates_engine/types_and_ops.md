@@ -39,7 +39,6 @@
 | `id` | `int` | Уникальный идентификатор сервера |
 | `name` | `str` | Название сервера |
 | `created_at` | `datetime.datetime` | Дата Создания сервера |
-| `avatar_url` | `str` | Ссылка на аватар участника |
 | `owner` | [Member](https://docs.kerdoku.top/template_engine/types_and_ops#member) | Создатель сервера |
 | `boost_count` | `int` | Количество нитро-бустов сервера |
 
