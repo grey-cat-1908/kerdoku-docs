@@ -7,7 +7,7 @@
 - Добавлена поддержка пользовательских компонентов (кнопка-ссылка). (Они настраиваются в меню на сайте.)
 - Добавлена возможность указать срок удаления сообщения.
 - Количество создаваемых тегов расширено до 8.
-- Добавлена поддержак всех изменений шаблонного движка. (args, Guild, Message, Member передаются автоматически, подробнее [тут](https://docs.kerdoku.top/templates_engine/variables/))
+- Добавлена поддержка всех изменений шаблонного движка. (args, Guild, Message, Member передаются автоматически, подробнее [тут](https://docs.kerdoku.top/templates_engine/variables/))
 - Команде воспроизведения тегов добавлен алиас `t`
 - В панели настройки добавлены кнопки форматирования.
 
@@ -15,24 +15,24 @@
 
 - Шаблонный Движок был переработан.
 - В документацию добавлена страница [Типы и Методы](https://docs.kerdoku.top/template_engine/types_and_ops). Там описаны все возможные типы данных, а также все возможные методы работы с ними.
-- Все аттрибуты теперь указываются в `snake_case`.
+- Все атрибуты теперь указываются в `snake_case`.
 - Добавлен набор методов [cmd](https://docs.kerdoku.top/template_engine/types_and_ops#cmd). Он позволяет напрямую взаимодействовать с другими типами данных и т.д.
 
-А теперь изменения аттрибутов:
+А теперь изменения атрибутов:
 
 - [Member](https://docs.kerdoku.top/template_engine/types_and_ops#member): 
-    - Добавлены аттрибуты - tag, avatar_url, mention
-    - Удалены аттрибуты - bio, age
+    - Добавлены атрибуты - tag, avatar_url, mention
+    - Удалены атрибуты - bio, age
 - [Guild](https://docs.kerdoku.top/template_engine/types_and_ops#guild): 
-    - Добавлены аттрибуты - created_at
-    - Удалены аттрибуты - region, memberCount
-    - Изменены аттрибуты - owner (теперь возвращает [Member](https://docs.kerdoku.top/template_engine/types_and_ops#member)), boosts (новое имя boost_count)
+    - Добавлены атрибуты - created_at
+    - Удалены атрибуты - region, memberCount
+    - Изменены атрибуты - owner (теперь возвращает [Member](https://docs.kerdoku.top/template_engine/types_and_ops#member)), boosts (новое имя boost_count)
 - [Role](https://docs.kerdoku.top/template_engine/types_and_ops#role): 
-    - Добавлены аттрибуты - id, name, created_at, position, color, [guild](https://docs.kerdoku.top/template_engine/types_and_ops#guild)
+    - Добавлены атрибуты - id, name, created_at, position, color, [guild](https://docs.kerdoku.top/template_engine/types_and_ops#guild)
 - [Channel](https://docs.kerdoku.top/template_engine/types_and_ops#channel): 
-    - Добавлены аттрибуты - id, name, created_at, mention, [guild](https://docs.kerdoku.top/template_engine/types_and_ops#guild)
+    - Добавлены атрибуты - id, name, created_at, mention, [guild](https://docs.kerdoku.top/template_engine/types_and_ops#guild)
 - [Message](https://docs.kerdoku.top/template_engine/types_and_ops#channel): 
-    - Добавлены аттрибуты - id, content, jump_url, [author](https://docs.kerdoku.top/template_engine/types_and_ops#member), [channel](https://docs.kerdoku.top/template_engine/types_and_ops#channel), [guild](https://docs.kerdoku.top/template_engine/types_and_ops#guild)
+    - Добавлены атрибуты - id, content, jump_url, [author](https://docs.kerdoku.top/template_engine/types_and_ops#member), [channel](https://docs.kerdoku.top/template_engine/types_and_ops#channel), [guild](https://docs.kerdoku.top/template_engine/types_and_ops#guild)
 
 **__Музыка__**
 
