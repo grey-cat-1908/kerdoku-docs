@@ -39,7 +39,7 @@
 | `id` | `int` | Уникальный идентификатор сервера |
 | `name` | `str` | Название сервера |
 | `created_at` | `datetime.datetime` | Дата Создания сервера |
-| `owner` | [Member](https://docs.kerdoku.top/template_engine/types_and_ops#member) | Создатель сервера |
+| `owner` | [Member](https://docs.kerdoku.top/templates_engine/types_and_ops#member) | Создатель сервера |
 | `boost_count` | `int` | Количество нитро-бустов сервера |
 
 ### Role
@@ -53,7 +53,7 @@
 | `created_at` | `datetime.datetime` | Дата Создания роли |
 | `position` | `int` | Позиция роли |
 | `color` | `str` | Цвет роли |
-| `guild` | [Guild](https://docs.kerdoku.top/template_engine/types_and_ops#guild) | Сервер роли |
+| `guild` | [Guild](https://docs.kerdoku.top/templates_engine/types_and_ops#guild) | Сервер роли |
 
 ### Channel
 
@@ -65,7 +65,7 @@
 | `name` | `str` | Название канала |
 | `created_at` | `datetime.datetime` | Дата Создания канала |
 | `mention` | `str` | Упоминание канала |
-| `guild` | [Guild](https://docs.kerdoku.top/template_engine/types_and_ops#guild) | Сервер канала |
+| `guild` | [Guild](https://docs.kerdoku.top/templates_engine/types_and_ops#guild) | Сервер канала |
 
 ### Message
 
@@ -77,9 +77,9 @@
 | `content` | `str` | Содержание сообщения |
 | `created_at` | `datetime.datetime` | Дата отправки сообщения |
 | `jump_url` | `str` | Ссылка на сообщение |
-| `guild` | [Guild](https://docs.kerdoku.top/template_engine/types_and_ops#guild) | Сервер сообщения |
-| `channel` | [Channel](https://docs.kerdoku.top/template_engine/types_and_ops#channel) | Канал сообщения |
-| `author` | [Member](https://docs.kerdoku.top/template_engine/types_and_ops#member) | Автор сообщения |
+| `guild` | [Guild](https://docs.kerdoku.top/templates_engine/types_and_ops#guild) | Сервер сообщения |
+| `channel` | [Channel](https://docs.kerdoku.top/templates_engine/types_and_ops#channel) | Канал сообщения |
+| `author` | [Member](https://docs.kerdoku.top/templates_engine/types_and_ops#member) | Автор сообщения |
 
 ### Args
 
@@ -133,7 +133,7 @@
 
     Возвращает участника сервера ID которого совпадает с указанным.
 
-    **Тип возвращаемых данных:** [Member](https://docs.kerdoku.top/template_engine/types_and_ops#member).
+    **Тип возвращаемых данных:** [Member](https://docs.kerdoku.top/templates_engine/types_and_ops#member).
 
 === "Параметры"
 
@@ -147,7 +147,7 @@
 
     Возвращает роль сервера ID которой совпадает с указанным.
 
-    **Тип возвращаемых данных:** [Role](https://docs.kerdoku.top/template_engine/types_and_ops#role).
+    **Тип возвращаемых данных:** [Role](https://docs.kerdoku.top/templates_engine/types_and_ops#role).
 
 === "Параметры"
 
