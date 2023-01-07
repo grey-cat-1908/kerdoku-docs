@@ -23,7 +23,7 @@ theme:
         icon: material/white-balance-sunny
         name: Switch to light mode
 
-copyright: © 2020-2021 — KerdokuBot | Все права съедены.
+copyright: © 2020-2023 — KerdokuBot | Все права съедены.
 
 markdown_extensions:
   - pymdownx.superfences
